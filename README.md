@@ -3,7 +3,7 @@
 Took data from https://grouplens.org/datasets/movielens/ and chose the Older Datasets: MovieLens 100K Dataset. 
 
 I first tried to do cluster analysis in STATA 14, but when I would try to do the Centroid Linkage or the Ward's Linkage approach
-to hierarchical clustering, STATA told me that there was insufficient memory for the matrix. So, I switched to R. Being less comfortable
+to hierarchical clustering, STATA told me that there was insufficient memory for the matrix. So, I switched to R (version 3.4.1). Being less comfortable
 with R, I relied on a Quick-R file to help with the code. 
 To cluster data, I used a variety of techniques: kmeans, Ward Hierarchical, and Model-based clustering. 
 
